@@ -26,6 +26,7 @@ let str = `
 ° ඬ⃟🔊 _Buenos noches_
 ° ඬ⃟🔊 _Audio hentai_
 ° ඬ⃟🔊 _Chica lgante_
+° ඬ⃟🔊 _insano_
 ° ඬ⃟🔊 _Feliz navidad_
 ° ඬ⃟🔊 _Vete a la vrg_
 ° ඬ⃟🔊 _Pasa pack Bot_
