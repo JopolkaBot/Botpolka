@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /bebito fiu fiu|bebe|bb fiu fiu|bbito fiu fiu|caramelo de chocolate/
+handler.customPrefix = /Bebito fiu fiu|bebito fiu fiu|Bebitofiufiu|bebitofiufiu|caramelo de chocolate/
 handler.command = new RegExp
 export default handler
