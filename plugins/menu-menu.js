@@ -358,12 +358,12 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟🔊 _Un pato_
 ° ඬ⃟🔊 _Nyanpasu_
 ° ඬ⃟🔊 _Te amo_
-° ඬ⃟🔊 _Yamete_
+° ඬ⃟🔊 _Bebito fiu fiu_
 ° ඬ⃟🔊 _Bañate_
 ° ඬ⃟🔊 _Es puto_
 ° ඬ⃟🔊 _La biblia_
-° ඬ⃟🔊 _Onichan_
-° ඬ⃟🔊 _Mierda de Bot_
+° ඬ⃟🔊 _Pou_
+° ඬ⃟🔊 _Bum_
 ° ඬ⃟🔊 _Siuuu_
 ° ඬ⃟🔊 _Rawr_
 ° ඬ⃟🔊 _UwU_
@@ -444,7 +444,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 `.trim(♡ 𝑱𝒐𝒑𝒐𝒍𝒌𝒂 - 𝑩𝒐𝒕𝒑𝒐𝒍𝒌𝒂 ♡)
-conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', [
+conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/JohanVega5935x', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/JopolkaBot/Botpolka', '𝙶𝙸𝚃𝙷𝚄𝙱', [
 ['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
 ['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'],
 ['🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾', '/infobot']
