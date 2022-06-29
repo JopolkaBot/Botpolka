@@ -9,7 +9,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /insano|inzanp|insanidad|friGOD|frifayer/
+handler.customPrefix = /insano|Insano|insanidad|friGOD|frifayer/
 handler.command = new RegExp
 export default handler
 
