@@ -64,8 +64,8 @@ readmore: readMore }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])    
     
 let imagen1 = fs.readFileSync('./Menu2.jpg')
-let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
-let imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
+let imagen2 = fs.readFileSync('./Menu2.jpg') 
+let imagen3 = fs.readFileSync('./Menu2.jpg')
 let texto1 = `╭═─═─═─═─═─═╮
 ║         𝙱𝙾𝚃𝙿𝙾𝙻𝙺𝙰
 ║╰═─═─═─═─══╯
