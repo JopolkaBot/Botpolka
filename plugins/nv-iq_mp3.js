@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /iq mayor al promedio|Iq mayor al promedio|Iq|Super tonta|iq/
+handler.customPrefix = /iq|Iq|Mayor al promedio|Tonta|Any/
 handler.command = new RegExp
 export default handler
