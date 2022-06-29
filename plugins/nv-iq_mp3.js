@@ -9,7 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /iq mayor al promedio|Iq mayor al promedio|superioridad|Super tonta|Any cemar
-/
+handler.customPrefix = /iq mayor al promedio|Iq mayor al promedio|Iq|Super tonta|iq/
 handler.command = new RegExp
 export default handler
