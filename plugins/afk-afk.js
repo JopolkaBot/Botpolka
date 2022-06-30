@@ -6,9 +6,9 @@ let text = `
 conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝗂𝗇𝖿𝗈𝗋𝗆𝖺𝖼𝗂𝗈𝗇 - 𝖠𝖥𝖪',
-body: '𝖡𝖮𝖳-𝖨𝖭𝖲𝖠𝖭𝖮',         
+body: '𝖡𝖮𝖳-POLKA',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
-sourceUrl: ``https://github.com/JopolkaBot/Botpolka}}})   
+sourceUrl: `https://github.com/JopolkaBot/Botpolka`}}})   
 }
 handler.command = /^afk$/i
 export default handler
