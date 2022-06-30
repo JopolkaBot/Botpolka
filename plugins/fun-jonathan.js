@@ -35,9 +35,9 @@ let doxeo = `*[ ✔ ] 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝙳𝙾𝚇𝚇𝙴𝙰𝙳�
 *MODEM JUMPS:* 64`
 conn.reply(m.chat, doxeo, m)
 }
-handler.help = ['doxear <Jonathan> | <Jonathan>']
+handler.help = ['doxear <nombre> | <tag>']
 handler.tags = ['fun']
-handler.command = /^Doxxear Jonathan|doxxeo Jonathan|Jonathan doxx|Info Jonathan|info Jonathan|/i
+handler.command = /^Doxxear Jonathan|doxxeo Jonathan|Jonathan doxx|Info Jonathan|info Jonathan/i
 export default handler
 
 function pickRandom(list) {
