@@ -351,6 +351,11 @@ const buttons = [
 let buttonMessage = {
 document: imagen1,
 jpegThumbnail: imagen1,
+fileName: `ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩`, 
+mimetype: `application/${document}`,
+jpegThumbnail: imagen1,
+caption: texto1,
+fileLength: "99999999999999",
 caption: texto1,
 footer: `By Jopolka`,
 buttons: buttons,
