@@ -349,7 +349,12 @@ const buttons = [
 {buttonId: `#menuaudios`, buttonText: {displayText: '🔊 𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂 🔊'}, type: 1},
 {buttonId: `#menucompleto`, buttonText: {displayText: '💟 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 💟'}, type: 1}, ]
 let buttonMessage = {
-document: imagen1, 
+document: imagen1,
+fileName: `ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩`, 
+mimetype: `application/${document}`,
+jpegThumbnail: imagen1,
+caption: texto1,
+fileLength: "99999999999999", 
 mentions:[m.sender, owner],
 footer: `By Jopolka`,
 buttons: buttons,
