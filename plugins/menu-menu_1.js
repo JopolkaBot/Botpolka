@@ -363,11 +363,11 @@ contextInfo: {
 "mentionedJid": [m.sender, owner],
 "externalAdReply": {
 "showAdAttribution": false,
-"title": `*IMPORTANTE: VE ESTE VIDEO*`,
+"title": `*LOGO*`,
 "mediaType": 2, 
 "previewType": "VIDEO",
 "thumbnail": imagen3,
-"mediaUrl": 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+"mediaUrl": 'https://youtu.be/gvdsdXzs0f8',
 "sourceUrl": 'www.Botpolka.com' }}} 
 conn.sendMessage(m.chat, buttonMessage, fake)}
 handler.help = ['menu', 'help', '?']
