@@ -1,14 +1,14 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
-let url = pack[Math.floor(Math.random() * pack.length)]
+let url = uriel[Math.floor(Math.random() * uriel.length)]
 conn.sendButton(m.chat, `_Jesus Uriel_`, author, url, [['🛐 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🛐', `/${command}`]], m)
 }
-handler.help = ['uriel']
+handler.help = ['Uriel']
 handler.tags = ['internet']
 handler.command = /^(Uriel)$/i
 export default handler
 
-global.pack = [
+global.uriel = [
   "https://telegra.ph/file/0cfa9a0d6d118badece2d.jpg",
   "https://telegra.ph/file/0127ce2d867ece9249c3d.jpg",
   "https://telegra.ph/file/a731c6b8e5d797e47830f.jpg",
