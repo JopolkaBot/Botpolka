@@ -6,6 +6,7 @@ import fs from 'fs'
 
 global.owner = [
   ['5218994998605', 'Jopolka Assistent - Bot', true],
+  ['5218992666128', 'Ownwe Dos', true],
 ] // Cambia los numeros que quieras
 global.mods = [] 
 global.prems = [] 
