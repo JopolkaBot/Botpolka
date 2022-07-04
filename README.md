@@ -48,8 +48,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-## `EDITOR Y PORPIETARIO DEL BOT` 
-[![BrunoSobrino](https://avatars.githubusercontent.com/u/90165013?s=400&u=946f5c00c527c7e6fa2ef5148c6ad56270bb600e&v=4size=100)](https://github.com/BrunoSobrino/) 
+## `EDITOR` Y PORPIETARIO DEL BOT`
+[![Jopolka](https://telegra.ph/file/535c5ec747d163ba11262.jpg)](https://github.com/JopolaBot/) 
 
 `Botpolka __________ By Jopolka`
 
