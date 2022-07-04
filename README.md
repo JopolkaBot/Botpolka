@@ -48,8 +48,11 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-## `EDITOR` Y PORPIETARIO DEL BOT`
+## `EDITOR DEL BOT`
 [![Jopolka](https://telegra.ph/file/535c5ec747d163ba11262.jpg)](https://github.com/JopolaBot/) 
 
 `Botpolka __________ By Jopolka`
+
+## `PROPIETARIO`
+`Bruno Sobrino`
 
