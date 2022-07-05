@@ -24,8 +24,8 @@ let buttonMessage= {
 'buttons':[
 {buttonId: `${usedPrefix}curpl`, buttonText: {displayText: 'LEO'}, type: 1}, 
 {buttonId: `${usedPrefix}curpj`, buttonText: {displayText: 'JOHAN'}, type: 1}],
-{buttonId: `${usedPrefix}curpj2, buttonText: {displayText: 'JONATHAN'}, type: 1}],
+{buttonId: `${usedPrefix}curpj2, buttonText: {displayText: 'JONATHAN'}, type: 2}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })}
-handler.command = ['curp','curpo']
+handler.command = ['curp','curps']
 export default handler
