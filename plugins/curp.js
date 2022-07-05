@@ -1,9 +1,9 @@
 let handler = async (m, { conn, usedPrefix }) => {
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let texto1 = `*https://PRESIONE-LA-CURP-QUE-DESEE*`
+let texto1 = `*https://https://presione/la/curp/que/desee.com*`
 let buttonMessage= {
-'document': { url: `https://PRESIONE-LA-CURP-QUE-DESEE` },
+'document': { url: `https://presione/la/curp/que/desee.com` },
 'mimetype': `application/${document}`,
 'fileName': `「  CURPS 」`,
 'fileLength': 99999999999999,
@@ -12,7 +12,7 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://PRESIONE-EL-CURP-QUE-DESEE',
+'mediaUrl': 'https://presione/la/curp/que/desee.com',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
