@@ -22,8 +22,8 @@ let buttonMessage= {
 'caption': texto1,
 'footer': wm,
 'buttons':[
-{buttonId: `${usedPrefix}curpu`, buttonText: {displayText: 'JONATHAN'}, type: 1}, 
-{buttonId: `${usedPrefix}curpj2`, buttonText: {displayText: 'URIEL'}, type: 1}],
+{buttonId: `${usedPrefix}curpj2`, buttonText: {displayText: 'JONATHAN'}, type: 1}, 
+{buttonId: `${usedPrefix}curpu`, buttonText: {displayText: 'URIEL'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })}
 handler.command = ['curp2','curp3']
