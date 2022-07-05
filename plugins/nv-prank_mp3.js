@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /broma|._.|._?|😐|😑/
+handler.customPrefix = /._.|._?|😐/
 handler.command = new RegExp
 export default handler
