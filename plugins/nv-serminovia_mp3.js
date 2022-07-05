@@ -1,7 +1,6 @@
 import util from 'util'
 import path from 'path'
 
-let pp = './Menu2.jpg'
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = './media/serminovia.mp3'
@@ -10,6 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /quieres ser mi novia?|Quieres ser mi novia?|andemos|Andemos|Te lateria ser mi novia/
+handler.customPrefix = /quieres ser mi|Quieres ser mi|Te lateria ser mi/
 handler.command = new RegExp
 export default handler
