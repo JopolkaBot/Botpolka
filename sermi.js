@@ -1,4 +1,3 @@
-let handler = async (m, { conn, participants, groupMetadata }) => {
 const pp = './media/sermino.jpg'
 let text = `acepta ♡`
 handler.help = ['novia']
