@@ -1,9 +1,9 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
-let url = uriel[Math.floor(Math.random() * uriel.length)]
+let url = bryan[Math.floor(Math.random() * bryan.length)]
 conn.sendButton(m.chat, `_Brayan Pérez_`, author, url, [['🛐 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🛐', `/${command}`]], m)
 }
-handler.help = ['Brayan']
+handler.help = ['Bryan']
 handler.tags = ['internet']
 handler.command = /^(Bryan)$/i
 export default handler
