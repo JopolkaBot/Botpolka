@@ -24,7 +24,7 @@ conn.sendHydrated2(m.chat, str, wm, pp, 'https://github.com/JopolkaBot/Botpolka'
 ['2', '/curpl'],
 ['3', '/curpu'],
 ['4', '/curpj2']
-], m)}
+], m)
 
 handler.help = ['curp']
 handler.tags = ['fun']
