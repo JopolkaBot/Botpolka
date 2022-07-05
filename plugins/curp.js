@@ -19,7 +19,7 @@ let estado =`
 ╰───────────────
 `.trim()
 
-conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/JopolkaBot/Botpolka', '𝙶𝙸𝚃𝙷𝚄𝙱', [
+conn.sendHydrated2(m.chat, str, wm, pp, 'https://github.com/JopolkaBot/Botpolka', '𝙶𝙸𝚃𝙷𝚄𝙱', [
 ['1', '/curpj']
 ['2', '/curpl'],
 ['3', '/curpu'],
@@ -28,7 +28,7 @@ conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers1
 
 handler.help = ['curp']
 handler.tags = ['fun']
-handler.command = /^(curp|curp)$/i
+handler.command = /^(curp|curp2)$/i
 export default handler
 
 function clockString(ms) {
