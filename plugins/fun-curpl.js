@@ -1,7 +1,7 @@
 let handler = async (m, { conn, command, text }) => {
 conn.reply(m.chat, `
-*CURP DE LEO*
-*HEZL070511HTSRVBA9*
+*LA CURP DE LEO ES:*
+_HEZL070511HTSRVBA9_
 `.trim(), m, m.mentionedJid ? {
 contextInfo: {
 mentionedJid: m.mentionedJid
