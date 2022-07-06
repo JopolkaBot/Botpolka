@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
 let url = uriel[Math.floor(Math.random() * uriel.length)]
-conn.sendButton(m.chat, `_Jesus Uriel_`, author, url, [['🛐 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🛐', `/${command}`]], m)
+conn.sendButton(m.chat, `_Jesus Uriel_`, author, url, [['', `/${command}`]], m)
 }
 handler.help = ['Uriel']
 handler.tags = ['internet']
