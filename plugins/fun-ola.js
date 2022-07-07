@@ -8,5 +8,5 @@ mentionedJid: m.mentionedJid
 handler.help = ['hola']
 handler.tags = ['fun']
 handler.customPrefix = /hola|Hola|ola/
-handler.command = /^(Hola|hola|ola?$)/
+handler.command = /^(Hola|hola|ola)/
 export default handler
