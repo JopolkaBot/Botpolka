@@ -2,8 +2,9 @@ let handler = async (m, { text }) => {
 let user = global.db.data.users[m.sender]
 user.afk = + new Date
 user.afkReason = text
-m.reply(`Eh hola 😅 aña 😼, perdón por encarar Messi 😓, es que te vi 😍 y dije 🙈 ig de la minita 😝, queremos la Champions 👻, soy un lobo solitario 😼 en busca de una loba 🐺🐺 Auuuuuuuu 🐺👻😼 soy heroico en fri fayer 👻 y los dejo 7-0 a todos 😝 GUASAAA 👻📞, quieres ser mi bebita fui fui?🙈 Es que te veo🤩 y digo😳, jijijija 😜 pasa pack 👻`)}
-handler.help = ['hola [alasan]']
+m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝗘𝗟 𝗨𝗦𝗨𝗔𝗥𝗜𝗢 ${conn.getName(m.sender)} 𝗘𝗦𝗧𝗔𝗥𝗔 𝗜𝗡𝗔𝗖𝗧𝗜𝗩𝗢, 𝗡𝗢 𝗟𝗢 𝗘𝗧𝗜𝗤𝗨𝗘𝗧𝗘𝗡!*\n\n* 𝗘𝗟 𝗠𝗢𝗧𝗜𝗩𝗢 𝗗𝗘 𝗦𝗨 𝗜𝗡𝗔𝗖𝗧𝗜𝗩𝗜𝗗𝗔𝗗 𝗘𝗦 ${text ? ': ' + text : ''}*
+`)}
+handler.help = ['afk [alasan]']
 handler.tags = ['main']
-handler.command = /^Hola$/i
+handler.command = /^afk$/i
 export default handler
